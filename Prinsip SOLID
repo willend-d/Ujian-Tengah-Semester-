@@ -1,0 +1,24 @@
+Pengertian SRP
+SRP adalah Single Responsibility Principle - salah satu dari 5 prinsip SOLID dalam pemrograman berorientasi objek. SRP = Setiap kelas harus memiliki hanya satu alasan untuk berubah
+(One class, one responsibility)
+Kelebihan:
+Mudah Dipahami - Setiap kelas punya tujuan jelas
+Mudah Di-maintain - Perubahan hanya di satu tempat
+Reusable - Kelas bisa digunakan di banyak context
+Testable - Mudah di-test karena fokus
+Less Buggy - Dampak perubahan terisolasi
+Kekurangan:
+Banyak Kelas - Bisa menghasilkan banyak kelas kecil
+Complexity - Lebih banyak file untuk dikelola
+Over-engineering - Risiko memecah terlalu keci
+
+Prinsip SOLID yang Relevan pada sistem kami adalah Single Responsibility Principle
+•	Setiap kelas memiliki satu tanggung jawab utama
+•	Peminjaman hanya menangani proses peminjaman
+•	Notifikasi hanya menangani pengiriman notifikasi
+•	Barang hanya mengelola informasi barang
+
+Tiga contoh pola design (creational design Activity)
+1. Factory Pattern untuk membuat objek Peminjaman:
+2. Singleton Pattern untuk Database Connection:
+3. Builder Pattern untuk pembuatan User:
